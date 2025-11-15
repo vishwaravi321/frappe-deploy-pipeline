@@ -68,7 +68,7 @@ These values must be accurate for deployments to work correctly.
 - The workflow file is located at:
 
 ```
-.github/workflows/deploy.yml
+deploy.yml
 ```
 
 The workflow:
