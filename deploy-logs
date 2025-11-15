@@ -1,0 +1,11 @@
+/home/<user-name>/deployment-logs/deployment-*.log {
+    daily
+    rotate 7
+    compress
+    missingok
+    notifempty
+    create 0640 <user-name> <user-name>
+    su <user-name> <user-name>
+    olddir /home/<user-name>/deployment-logs/archive/
+    maxage 6
+}
