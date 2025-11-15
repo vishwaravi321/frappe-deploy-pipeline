@@ -22,9 +22,7 @@ The workflow automatically triggers on merges or pushes to the `workflow_branch`
 
 ```
 frappe-deploy-pipeline/
-├── .github/
-│   └── workflows/
-│       └── deploy.yml
+├── deploy.yml
 ├── deploy.sh
 ├── LICENSE
 ├── deploy-logs
@@ -66,7 +64,8 @@ These values must be accurate for deployments to work correctly.
 
 ## 🛠 GitHub Actions Workflow
 
-The workflow file is located at:
+- Move the workflow file to `.github/workflows/`
+- The workflow file is located at:
 
 ```
 .github/workflows/deploy.yml
